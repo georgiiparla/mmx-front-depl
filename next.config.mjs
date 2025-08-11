@@ -1,17 +1,19 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     images: {
-//         remotePatterns: [
-//           {
-//             protocol: 'https',
-//             hostname: 'georgiiparla.github.io',
-//             pathname: '/mmxFront/public/**', // Optionally restrict to specific paths
-//           },
-//         ],
-//       },
-// };
+/** @type {import('next').NextConfig} */
 
-// export default nextConfig;
+/* This entire block is now commented out
+const nextConfig = {
+     images: {
+         remotePatterns: [
+           {
+             protocol: 'https',
+             hostname: 'georgiiparla.github.io',
+             pathname: '/mmxFront/public/**',
+           },
+         ],
+       },
+};
+*/
+
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -20,7 +22,6 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'georgiiparla.github.io',
-        // This allows any path on the domain
         pathname: '/**',
       },
     ],
