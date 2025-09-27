@@ -7,7 +7,7 @@ const nextConfig = {
            {
              protocol: 'https',
              hostname: 'georgiiparla.github.io',
-             pathname: '/mmxFront/public/**',
+             pathname: '/mmx-front-origin/public/**',
            },
          ],
        },
@@ -17,15 +17,15 @@ const nextConfig = {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'georgiiparla.github.io',
-        pathname: '/**',
-      },
-    ],
-  },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'georgiiparla.github.io',
+                pathname: '/**',
+            },
+        ],
+    },
 };
 
 export default nextConfig;

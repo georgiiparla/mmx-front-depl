@@ -8,24 +8,24 @@ import Hamburger from './ui/overlay/Hamburger'
 import Footer from './ui/overlay/Footer'
 
 export const metadata: Metadata = {
-  title: 'Multimaxx',
-  description: 'Multimaxx website',
-  metadataBase: new URL('http://localhost:3000'),
+    title: 'Multimaxx',
+    description: 'Multimaxx website',
+    metadataBase: new URL('http://localhost:3000'),
 }
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
-    <html lang='en' className={inter.className}>
-      <body>
-        <Header />
-        {children}
-        <Hamburger />
-        <Footer />
-      </body>
-    </html>
-  )
+    return (
+        <html lang='en' className={inter.className} data-theme="dark">
+            <body>
+                <Header />
+                {children}
+                <Hamburger />
+                <Footer />
+            </body>
+        </html>
+    )
 }
