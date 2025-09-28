@@ -1,11 +1,11 @@
-Install Node.js and npm
+## 🚀 Live Demo
 
-Download and unpack the ZIP file of this project
+https://mmx-front-depl.vercel.app
 
-Open Terminal in the root folder
+## A Note on Performance 🚀
 
-Type "npm install" and hit Enter
+This portfolio project was developed to showcase design and functionality, utilizing high-quality, uncompressed media.
 
-Type "npm run dev" and hit Enter
+To prioritize development speed for this demonstration, advanced performance optimizations like **asset compression** and **lazy loading** have not been implemented. Consequently, initial page loads may take a moment longer, especially on slower connections.
 
-Go to the defined address
+Thank you for your patience!
