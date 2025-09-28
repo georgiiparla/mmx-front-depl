@@ -2,6 +2,10 @@
 
 https://mmx-front-depl.vercel.app
 
+## Assets
+
+This project uses AI generated media assets
+
 ## A Note on Performance 🚀
 
 This portfolio project was developed to showcase design and functionality, utilizing high-quality, uncompressed media.
