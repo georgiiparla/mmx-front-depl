@@ -42,7 +42,7 @@ export const pageData: { [key: string]: PageConfig } = {
     actionZone: { // Renamed from 'battlemaxx'
         header: {
             videoPath: '/media/photos/BATTLEMAXX.mp4',
-            title: 'ACTION-ZONE', // Mock name
+            title: 'ACTIONZONE', // Mock name
             subtitle: '#1 outdoor adventure in the region', // Mock subtitle
             overlayColor: 'emerald',
         },
@@ -104,7 +104,7 @@ export const pageData: { [key: string]: PageConfig } = {
     funplexCityCenter: { // Renamed from 'multimaxxPaola'
         header: {
             videoPath: '/media/photos/cmx.mp4',
-            title: 'CYBER-ZONE', // Mock name
+            title: 'CYBERZONE', // Mock name
             subtitle: 'Indoor laser tag in the City Center', // Mock subtitle
             overlayColor: 'indigo',
         },
@@ -166,7 +166,7 @@ export const pageData: { [key: string]: PageConfig } = {
     funplexNorthside: { // Renamed from 'multimaxxQormi'
         header: {
             videoPath: '/media/photos/qormi.mp4',
-            title: 'FUN-PLEX NORTH', // Mock name
+            title: 'FUNPLEX NORTH', // Mock name
             subtitle: 'Bumping cars, arcades, VR',
             overlayColor: 'sky',
         },
@@ -228,7 +228,7 @@ export const pageData: { [key: string]: PageConfig } = {
     funplexWestEnd: { // Renamed from 'multimaxxStjulians'
         header: {
             videoPath: '/media/photos/file.mp4',
-            title: 'FUN-PLEX WEST', // Mock name
+            title: 'FUNPLEX WEST', // Mock name
             subtitle: 'Laser tag, arcades, VR.',
             overlayColor: 'zinc',
         },

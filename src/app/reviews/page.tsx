@@ -88,7 +88,6 @@ export default function ReviewsPageV2() {
     const [selectedDepartment, setSelectedDepartment] = useState('All Departments')
     const [sortBy, setSortBy] = useState('newest')
 
-    // Add state for helpful votes and user interactions
     const [helpfulCounts, setHelpfulCounts] = useState<{ [key: number]: number }>(() => {
         const initialCounts: { [key: number]: number } = {}
         reviewsData.forEach(review => {
@@ -97,7 +96,6 @@ export default function ReviewsPageV2() {
         return initialCounts
     })
 
-    // FIXED: Use array instead of Set to avoid ES target issues
     const [userHelpfulVotes, setUserHelpfulVotes] = useState<number[]>([])
 
     const filteredReviews = reviewsData
@@ -113,7 +111,6 @@ export default function ReviewsPageV2() {
             }
         })
 
-    // Fixed calculations
     const averageRating = reviewsData.length > 0 ? reviewsData.reduce((acc, review) => acc + review.rating, 0) / reviewsData.length : 0
     const totalReviews = reviewsData.length
 
@@ -122,19 +119,16 @@ export default function ReviewsPageV2() {
         return { star, count, percentage: totalReviews > 0 ? (count / totalReviews) * 100 : 0 }
     })
 
-    // FIXED: Handle helpful button click with array operations
     const handleHelpfulClick = (reviewId: number) => {
         const isAlreadyHelpful = userHelpfulVotes.includes(reviewId)
 
         if (isAlreadyHelpful) {
-            // Unlike - decrease count and remove from array
             setHelpfulCounts(prev => ({
                 ...prev,
                 [reviewId]: Math.max(0, (prev[reviewId] || 0) - 1)
             }))
             setUserHelpfulVotes(prev => prev.filter(id => id !== reviewId))
         } else {
-            // Like - increase count and add to array
             setHelpfulCounts(prev => ({
                 ...prev,
                 [reviewId]: (prev[reviewId] || 0) + 1
