@@ -28,8 +28,8 @@ export default function Page() {
                 <div className='absolute inset-0 bg-gradient-to-t from-zinc-900 from-50% to-transparent opacity-70'></div>
                 <Image
                     src='/media/mmxLogo.png'
-                    width={300}
-                    height={300}
+                    width={600}
+                    height={600}
                     alt='logo'
                     className='relative z-10 mx-auto'
                 ></Image>
@@ -44,7 +44,7 @@ export default function Page() {
                     ref={sectionRef}
                 >
                     <DepartmentCard
-                        departmentLink='/battlemaxx'
+                        departmentLink='/action-zone'
                         cardBgImagePath='/media/photos/ol_m.png'
                         cardBgImagePathAlt='BattlemaxxImage'
                         cardTitle='ACTION-ZONE'
@@ -53,7 +53,7 @@ export default function Page() {
                         ]}
                     />
                     <DepartmentCard
-                        departmentLink='/multimaxx-stjulians'
+                        departmentLink='/funplex-west'
                         cardBgImagePath='/media/photos/il_m.png'
                         cardBgImagePathAlt='MultimaxxImage'
                         cardTitle='FUN-PLEX WEST'
@@ -64,7 +64,7 @@ export default function Page() {
                         ]}
                     />
                     <DepartmentCard
-                        departmentLink='/multimaxx-paola'
+                        departmentLink='/cyber-zone'
                         cardBgImagePath='/media/photos/ls_family.png'
                         cardBgImagePathAlt='CybermaxxImage'
                         cardTitle='CYBER-ZONE'
@@ -73,7 +73,7 @@ export default function Page() {
                         ]}
                     />
                     <DepartmentCard
-                        departmentLink='/multimaxx-qormi'
+                        departmentLink='/funplex-north'
                         cardBgImagePath='/media/photos/paviCars.jpg'
                         cardBgImagePathAlt='MultimaxxQormiImage'
                         cardTitle='FUN-PLEX NORTH'

@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className='sticky top-0 z-50 flex items-center justify-between p-4'>
             <Link href={'/'}>
-                <div className='flex h-12 w-12 items-center justify-center rounded-xl bg-white lg:h-16 lg:w-16'>
+                <div className='flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-400 lg:h-16 lg:w-16'>
                     <Image
                         src='/media/mmxLogo2.png'
                         width={36}
@@ -20,15 +20,11 @@ export default function Header() {
             </Link>
 
             <div className='flex gap-4'>
-                <a
-                    href='https://book22776.simplybook.me/v2/?widget-type=iframe&theme=space&theme=space&timeline=modern&datepicker=top_calendar#book/count/1/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    <button className='btn btn-outline btn-warning btn-md sm:btn-md lg:btn-lg xl:btn-lg 2xl:btn-lg'>
-                        <div className={`${inter.className} text-base`}>Book online</div>
-                    </button>
-                </a>
+                <Link href='/reviews' legacyBehavior>
+                    <a className='btn btn-outline btn-warning btn-md sm:btn-md lg:btn-lg xl:btn-lg 2xl:btn-lg'>
+                        See reviews
+                    </a>
+                </Link>
 
                 <a
                     href='tel:+35699177777'
