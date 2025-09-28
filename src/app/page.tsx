@@ -47,7 +47,7 @@ export default function Page() {
                         departmentLink='/action-zone'
                         cardBgImagePath='/media/photos/ol_m.png'
                         cardBgImagePathAlt='BattlemaxxImage'
-                        cardTitle='ACTION-ZONE'
+                        cardTitle='ACTIONZONE'
                         badges={[
                             { badgeTitle: 'Outdoor LaserTag', badgeType: 'badge-warning' },
                         ]}
@@ -56,7 +56,7 @@ export default function Page() {
                         departmentLink='/funplex-west'
                         cardBgImagePath='/media/photos/il_m.png'
                         cardBgImagePathAlt='MultimaxxImage'
-                        cardTitle='FUN-PLEX WEST'
+                        cardTitle='FUNPLEX WEST'
                         badges={[
                             { badgeTitle: 'Arcade Machines', badgeType: 'badge-primary' },
                             { badgeTitle: 'Indoor LaserTag', badgeType: 'badge-secondary' },
@@ -67,7 +67,7 @@ export default function Page() {
                         departmentLink='/cyber-zone'
                         cardBgImagePath='/media/photos/ls_family.png'
                         cardBgImagePathAlt='CybermaxxImage'
-                        cardTitle='CYBER-ZONE'
+                        cardTitle='CYBERZONE'
                         badges={[
                             { badgeTitle: 'Indoor LaserTag', badgeType: 'badge-secondary' },
                         ]}
@@ -76,7 +76,7 @@ export default function Page() {
                         departmentLink='/funplex-north'
                         cardBgImagePath='/media/photos/paviCars.jpg'
                         cardBgImagePathAlt='MultimaxxQormiImage'
-                        cardTitle='FUN-PLEX NORTH'
+                        cardTitle='FUNPLEX NORTH'
                         badges={[
                             { badgeTitle: 'Arcade Machines', badgeType: 'badge-primary' },
                             { badgeTitle: 'Bumping Cars', badgeType: 'badge-error' },
