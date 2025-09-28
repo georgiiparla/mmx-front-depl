@@ -8,8 +8,8 @@ import Hamburger from './ui/overlay/Hamburger'
 import Footer from './ui/overlay/Footer'
 
 export const metadata: Metadata = {
-    title: 'Multimaxx',
-    description: 'Multimaxx website',
+    title: 'Funplex',
+    description: 'Funplex website',
     metadataBase: new URL('http://localhost:3000'),
 }
 

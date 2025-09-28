@@ -41,15 +41,14 @@ export default function Hamburger() {
                             </div>
                             <div className='collapse-content text-base text-white'>
                                 <div className={`flex flex-col gap-4 ${inter2.className}`}>
-                                    <Link href='/battlemaxx'>BATTLEMAXX</Link>
-                                    <Link href='/multimaxx-stjulians'>MULTIMAXX St.Julians</Link>
-                                    <Link href='/multimaxx-paola'>CYBERMAXX</Link>
-                                    <Link href='/multimaxx-qormi'>MULTIMAXX Qormi</Link>
+                                    <Link href='/battlemaxx'>ACTION-ZONE</Link>
+                                    <Link href='/multimaxx-stjulians'>FUN-PLEX WEST</Link>
+                                    <Link href='/multimaxx-paola'>CYBER-ZONE</Link>
+                                    <Link href='/multimaxx-qormi'>FUN-PLEX NORTH</Link>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    {/* ... you can update the rest of the links as needed ... */}
                     <li className='w-full'>
                         <div
                             tabIndex={0}
@@ -60,10 +59,10 @@ export default function Hamburger() {
                             </div>
                             <div className='collapse-content text-base text-white'>
                                 <div className={`flex flex-col gap-4 ${inter2.className}`}>
-                                    <a>BATTLEMAXX</a>
-                                    <a>MULTIMAXXX St.Julians</a>
-                                    <a>CYBERMAXX</a>
-                                    <a>MULTIMAXX Qormi</a>
+                                    <a>ACTION-ZONE</a>
+                                    <a>FUN-PLEX WEST</a>
+                                    <a>CYBER-ZONE</a>
+                                    <a>FUN-PLEX NORTH</a>
                                 </div>
                             </div>
                         </div>

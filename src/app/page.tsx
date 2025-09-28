@@ -22,14 +22,14 @@ export default function Page() {
     return (
         <main className='flex min-h-screen flex-col gap-32 p-6'>
             <div
-                className='relative mx-auto flex h-[80vh] w-full animate-fade cursor-pointer flex-col justify-center overflow-hidden rounded-xl bg-[url("/media/photos/vrlady.webp")] bg-cover bg-center px-4 py-8 shadow-md'
+                className='relative mx-auto flex h-[80vh] w-full animate-fade cursor-pointer flex-col justify-center overflow-hidden rounded-xl bg-[url("/media/photos/vrlady.png")] bg-cover bg-center px-4 py-8 shadow-md'
                 onClick={scrollToSection}
             >
                 <div className='absolute inset-0 bg-gradient-to-t from-zinc-900 from-50% to-transparent opacity-70'></div>
                 <Image
                     src='/media/mmxLogo.png'
-                    width={400}
-                    height={400}
+                    width={300}
+                    height={300}
                     alt='logo'
                     className='relative z-10 mx-auto'
                 ></Image>
@@ -45,18 +45,18 @@ export default function Page() {
                 >
                     <DepartmentCard
                         departmentLink='/battlemaxx'
-                        cardBgImagePath='/media/photos/bmxKid.webp'
+                        cardBgImagePath='/media/photos/ol_m.png'
                         cardBgImagePathAlt='BattlemaxxImage'
-                        cardTitle='BATTLEMAXX'
+                        cardTitle='ACTION-ZONE'
                         badges={[
                             { badgeTitle: 'Outdoor LaserTag', badgeType: 'badge-warning' },
                         ]}
                     />
                     <DepartmentCard
                         departmentLink='/multimaxx-stjulians'
-                        cardBgImagePath='/media/photos/laserTeam.jpg'
+                        cardBgImagePath='/media/photos/il_m.png'
                         cardBgImagePathAlt='MultimaxxImage'
-                        cardTitle='MULTIMAXX ST. JULIANS'
+                        cardTitle='FUN-PLEX WEST'
                         badges={[
                             { badgeTitle: 'Arcade Machines', badgeType: 'badge-primary' },
                             { badgeTitle: 'Indoor LaserTag', badgeType: 'badge-secondary' },
@@ -65,9 +65,9 @@ export default function Page() {
                     />
                     <DepartmentCard
                         departmentLink='/multimaxx-paola'
-                        cardBgImagePath='/media/photos/cmxLaserTag.jpg'
+                        cardBgImagePath='/media/photos/ls_family.png'
                         cardBgImagePathAlt='CybermaxxImage'
-                        cardTitle='CYBERMAXX'
+                        cardTitle='CYBER-ZONE'
                         badges={[
                             { badgeTitle: 'Indoor LaserTag', badgeType: 'badge-secondary' },
                         ]}
@@ -76,7 +76,7 @@ export default function Page() {
                         departmentLink='/multimaxx-qormi'
                         cardBgImagePath='/media/photos/paviCars.jpg'
                         cardBgImagePathAlt='MultimaxxQormiImage'
-                        cardTitle='MULTIMAXX QORMI'
+                        cardTitle='FUN-PLEX NORTH'
                         badges={[
                             { badgeTitle: 'Arcade Machines', badgeType: 'badge-primary' },
                             { badgeTitle: 'Bumping Cars', badgeType: 'badge-error' },

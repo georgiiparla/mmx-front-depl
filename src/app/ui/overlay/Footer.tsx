@@ -1,5 +1,4 @@
 import { interBold } from '@/app/ui/fonts'
-
 import Image from 'next/image'
 
 export default function Footer() {
@@ -8,38 +7,35 @@ export default function Footer() {
             <aside>
                 <Image src='/media/mmxLogo3.png' width={125} height={75} alt='logo'></Image>
                 <p>
-                    Multimaxx Ltd.
+                    Funplex Entertainment Ltd.
                     <br />
-                    Providing entertainment services since 2010
-                    <br />
-                    <br />
-                    <span className={`${interBold.className}`}>BATTLEMAXX</span> <br />
-                    info@starwarsmalta.com <br />
-                    Tel: +356 99177777
+                    Providing entertainment services since 2015
                     <br />
                     <br />
-                    <span className={`${interBold.className}`}>
-                        MULTIMAXX BAY STREET
-                    </span>{' '}
-                    <br />
-                    St. Jullian's Level 4, Bay Street Complex, Saint Julian's, Malta{' '}
-                    <br />
-                    info@starwarsmalta.com <br />
-                    Tel: +356 99177777
+                    <span className={`${interBold.className}`}>ACTION-ZONE</span> <br />
+                    contact@example.com <br />
+                    Tel: +1 (555) 123-4567
                     <br />
                     <br />
-                    <span className={`${interBold.className}`}>MULTIMAXX PAOLA</span>{' '}
+                    <span className={`${interBold.className}`}>FUN-PLEX CITY</span>{' '}
                     <br />
-                    Paola Level 2, Main Street Complex, Paola, Malta <br />
-                    info@starwarsmalta.com <br />
-                    Tel: +356 99177777
+                    City Center, Level 4, Bay Street Complex, Fun City <br />
+                    contact@example.com <br />
+                    Tel: +1 (555) 123-4567
                     <br />
                     <br />
-                    <span className={`${interBold.className}`}>MULTIMAXX QORMI</span>{' '}
+                    <span className={`${interBold.className}`}>FUN-PLEX DOWNTOWN</span>{' '}
                     <br />
-                    Qormi Pavi Shopping Complex, Square Cafe, Level -1 <br />
-                    info@Starwarsmalta.com <br />
-                    Tel: +356 99177777
+                    Downtown, Level 2, Main Street Complex, Fun City <br />
+                    contact@example.com <br />
+                    Tel: +1 (555) 123-4567
+                    <br />
+                    <br />
+                    <span className={`${interBold.className}`}>FUN-PLEX NORTHSIDE</span>{' '}
+                    <br />
+                    Northside Shopping Complex, Level -1, Fun City <br />
+                    contact@example.com <br />
+                    Tel: +1 (555) 123-4567
                 </p>
             </aside>
             <nav>
